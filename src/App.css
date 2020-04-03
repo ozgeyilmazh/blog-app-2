@@ -1,0 +1,396 @@
+body {
+    margin: 0;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.empty-space {
+    text-align: center;
+    padding: 5%;
+    background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("./images/overlay.png");
+    border-radius: 20px;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.header-color{
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.anasayfa-grid {
+    text-align: center;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.header-nav {
+    padding: 1%;
+}
+
+.header-nav ul {
+    margin-left: 3%;
+}
+
+.header-nav a {
+    margin-top: 10px;
+    color: wheat;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-nav a:hover {
+    color: rgba(0,0,0,0.5);
+}
+
+.header-nav a:focus, a:active{
+    color: darkred;
+}
+
+.btn-renk, .navbar-toggle {
+    background-color: RGBA(0,0,0,0.5);
+}
+.navbar-toggle .icon-bar, .navbar-toggle .icon-bar+.icon-bar {
+    background-color: bisque;
+}
+.navbar-nav .open .dropdown-menu>li>a {
+    color: bisque;
+}
+.navbar-nav .open .dropdown-menu>li>a:hover {
+    background-color: rgba(0,0,0,0.5);    
+}
+.navbar-nav .open .dropdown-menu>li>a {
+    background-blend-mode: saturation;
+    color: wheat;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    color: rgba(0,0,0,0.8);
+}
+.dropdown-menu {
+    background-color: firebrick;
+}
+/*Anasayfa*/
+.general {
+    background-image: url('https://images.unsplash.com/photo-1585840887282-4079ccc0e98d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    /* Full height */
+    background-size: cover;
+    height: 45%;
+    margin-bottom: 5%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+}
+.baslik {
+    color: beige;
+}
+.baslik h3 {
+    border-radius: 20px;
+    padding: 3%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background: rgb(0,0,0,0.3);
+}
+.buton {
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    margin-top: 10%;
+}
+.btn-header {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+    border-radius: 100px;
+    font-size: 19px;
+    border-color: white;
+    background-color: rgba(0,0,0,0.7);
+}
+.btn-header:hover {
+    opacity: .5;
+    border-color: rgba(wheat,0.5);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.btn-header:focus,
+.btn-header:active,
+.btn-header:visited {
+    background-color: darkred;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.general a {
+    font-family: 'Raleway', sans-serif;
+    color: beige;
+}
+.general a:hover {
+   color: beige;
+}
+
+.slider{
+    background-image: url("https://images.unsplash.com/photo-1585844618972-71094d96c356?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+    height: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    border-radius: 20px;
+}
+
+.p-left  {
+    background: RGBA(0,0,0,0.5);
+    font-family: 'Raleway', sans-serif;
+    opacity: .9;
+    box-shadow: none;
+    border-color: transparent;
+    border-radius: 100px;
+    padding: 10px 30px 8px 30px;
+    color: beige;
+    font-weight: 600;
+    float: left;
+    margin-top: 4%;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.p-right {
+    background: RGBA(0,0,0,0.5);
+    font-family: 'Raleway', sans-serif;
+    opacity: .9;
+    box-shadow: none;
+    border-color: transparent;
+    border-radius: 100px;
+    padding: 10px 30px 8px 30px;
+    color: beige;
+    font-weight: 600;
+    float: right;
+    margin-top: 6%; 
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.p-left:hover , .p-right:hover {
+    color: firebrick;
+    font-weight: 600;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.modal-title {
+    color: wheat;
+}
+.ol-class {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.ol-class-ana {
+    color: wheat;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.ol-class-ana li {
+    color: wheat;
+}
+ .hakkimizda-resim{
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+
+.hakkimizda-paragraf {
+    background-color: rgba(0,0,0,0.5);
+    padding: 5%;
+    margin: 5%;
+    color: #fbf8ec;
+    border-radius: 6px;
+    font-family: 'Baloo Thambi 2', cursive !important;
+
+}
+.article3 a {
+    font-size: 13px;
+}
+.article3 p {
+    color: wheat;
+}
+/* Footer */
+
+
+.social {
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 50px;
+    background-color: #D9D2B0;
+    border-radius: 30px;
+  }  
+.social-icons li {
+  padding: 1%;
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:30px;
+  height:30px;
+  margin-top: 10px;
+  margin-right:40px;
+}
+
+#copyright {
+    margin-top: 5%;
+    margin-bottom: -4%;
+    width: 50%;
+}
+#copyright p {
+    color: #8C8B8A;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#copyright p a {
+    text-decoration: none;
+    color: wheat;
+}
+
+/*Hakkımızda*/
+
+/* Ekibimiz */
+
+.cardd {
+    text-align: center;
+    color: wheat;
+    width: 18rem;
+}
+.btn-iletisim {
+    background-color: RGBA(255,0,0,0.3);
+    padding: 5%;
+    border-radius: 10px;
+}
+
+/* Basın ve Medyada Biz */
+
+/* Ödeme Bilgileri */
+
+    
+
+/* Sosyal Sorumluluk */
+
+.sosyal-sorumluluk-grid {
+    text-align: center;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+/* Faaliyet Alanlarımız */
+
+
+.article3 {
+    margin-top: 3%;
+    background-color: RGBA(0,0,0,0.25);
+    border-radius: 10px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    clear:both; 
+    overflow:hidden;
+}
+.article3 h2 {
+    position: relative;
+} 
+.article3 h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20%;
+    left:50%;
+    width:60px;
+    height: 2px;
+    background-color: #fff200;
+    margin-left: -30px;
+}
+
+.article3 h2, li {
+    color: wheat;
+}
+
+.btn-faaliyet,
+.btn-faaliyet:focus,
+.btn-faaliyet:active,
+.btn-faaliyet:visited {
+    background-color: transparent;
+    color: beige;
+    border-color: wheat;
+    border-radius: 10px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.btn-faaliyet:hover {
+    color: rebeccapurple;
+}
+.devam,
+.devam:active,
+.devam:focus,
+.devam:visited {
+    background-color: darkred;
+    color: beige;
+    padding: 1%;
+    border-color: wheat;
+    border-radius: 10px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.devam a:hover {
+    color: rebeccapurple;
+}
+
+.mail{
+    font-family: 'Raleway', sans-serif;
+    padding: 0.5%;
+    color: darkslateblue;
+    border-radius: 6px;
+    background-color: darkslateblue;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.mail a:hover {
+    color: yellow;
+    background-color: transparent;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.modal-content {
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
